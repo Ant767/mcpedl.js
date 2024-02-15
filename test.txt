@@ -1,0 +1,723 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "type_id": 9,
+      "slug": "azalea",
+      "source": "mcpedl",
+      "title": "Azalea Essentials | Update V2.0",
+      "tags": [
+        {
+          "id": 276,
+          "category_id": null,
+          "created_at": "2023-12-07T09:00:00.000000Z",
+          "updated_at": "2023-12-07T09:00:00.000000Z",
+          "name": "1.20.50",
+          "slug": "1-20-50",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/106294/110/azaleav20_1-520x245.png",
+      "created_at": "2024-02-07T19:33:14.000000Z",
+      "user_id": 1003484,
+      "sort_date": "2024-02-08 15:20:51",
+      "popular": {
+        "popular_week": "831",
+        "popular_month": "9124",
+        "popular_all": "27601"
+      },
+      "submission_id": 106294,
+      "version": 111,
+      "username": "powertrash",
+      "user_nicename": "powertrash",
+      "user_avatar": "https://api.mcpedl.com/storage/users/1003484/f53c26a807720c34875eac456267a52f.png",
+      "average_rating": "4.4",
+      "short_description": "Are you tired of your server being boring? Download this addon today!Azalea is a feature-rich server essentials addon for Minecraft Bedrock Edition. It provides various tools an...",
+      "categories": [
+        {
+          "id": 9,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "name": "Minecraft PE Scripts",
+          "slug": "scripts",
+          "parent_id": 9
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/106294/110/azaleav20_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/106294/110/azaleav20_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/106294/110/azaleav20_1-520x245.png"
+      },
+      "update_date": "2024-02-07 19:33:14",
+      "publish_date": "2024-02-08 15:20:51",
+      "id": 206107,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 9,
+      "slug": "azalea-chatranks",
+      "source": "mcpedl",
+      "title": "Azalea Chatranks",
+      "tags": [
+        {
+          "id": 275,
+          "category_id": null,
+          "created_at": "2023-10-25T09:00:00.000000Z",
+          "updated_at": "2023-10-25T09:00:00.000000Z",
+          "name": "1.20.40",
+          "slug": "1-20-40",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/110654/100/new-project-3_1-520x245.png",
+      "created_at": "2023-11-27T07:59:07.000000Z",
+      "user_id": 1003484,
+      "sort_date": "2023-11-28 10:09:45",
+      "popular": {
+        "popular_week": "28",
+        "popular_month": "210",
+        "popular_all": "1627"
+      },
+      "submission_id": 110654,
+      "version": 100,
+      "username": "powertrash",
+      "user_nicename": "powertrash",
+      "user_avatar": "https://api.mcpedl.com/storage/users/1003484/f53c26a807720c34875eac456267a52f.png",
+      "average_rating": "5",
+      "short_description": "This is a chat rank addon I made in about 14 minutes for a challenge. I thought someone out there might like it, so here it is. With this addon you can have some very simple cha...",
+      "categories": [
+        {
+          "id": 9,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "name": "Minecraft PE Scripts",
+          "slug": "scripts",
+          "parent_id": 9
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/110654/100/new-project-3_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/110654/100/new-project-3_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/110654/100/new-project-3_1-520x245.png"
+      },
+      "update_date": 0,
+      "publish_date": "2023-11-28 10:09:45",
+      "id": 198612,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 3,
+      "slug": "cute-azalea-boats-pack-1",
+      "source": "mcpedl",
+      "title": "Cute Azalea Boats",
+      "tags": [
+        {
+          "id": 254,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "1.17.30",
+          "slug": "1-17-30",
+          "term_id": 525,
+          "tag_type_id": 11
+        },
+        {
+          "id": 253,
+          "category_id": null,
+          "created_at": "2021-04-22T02:18:07.000000Z",
+          "updated_at": "2021-04-22T02:18:07.000000Z",
+          "name": "1.17.11",
+          "slug": "1-17-11",
+          "term_id": null,
+          "tag_type_id": 11
+        },
+        {
+          "id": 182,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "16x",
+          "slug": "16x",
+          "term_id": 486,
+          "tag_type_id": 6
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/75409/100/captura-de-pantalla-249_1-520x245.png",
+      "created_at": "2021-11-02T13:57:32.000000Z",
+      "user_id": 524188,
+      "sort_date": "2021-11-04 16:39:35",
+      "popular": {
+        "popular_week": "20",
+        "popular_month": "126",
+        "popular_all": "16354"
+      },
+      "submission_id": 75409,
+      "version": 101,
+      "username": "Hakks",
+      "user_nicename": "akks",
+      "user_avatar": "https://api.mcpedl.com/storage/users/524188/fac90a46075cb5a6d32495b4d97ae974.png",
+      "average_rating": "5",
+      "short_description": "This texture pack is inspired by a previous version that I have created for java, it is a boat with a azalea roof and with the necessary adjustments to work in bedrock versions,...",
+      "categories": [
+        {
+          "name": "Minecraft PE Texture Packs",
+          "slug": "texture-packs"
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/75409/100/captura-de-pantalla-249_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/75409/100/captura-de-pantalla-249_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/75409/100/captura-de-pantalla-249_1-520x245.png"
+      },
+      "update_date": "2021-11-02 13:57:32",
+      "publish_date": "2021-11-04 16:39:35",
+      "id": 130490,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 1,
+      "slug": "the-wild-features-addon",
+      "source": "mcpedl",
+      "title": "The Wild Environment (v1.10)",
+      "tags": [
+        {
+          "id": 276,
+          "category_id": null,
+          "created_at": "2023-12-07T09:00:00.000000Z",
+          "updated_at": "2023-12-07T09:00:00.000000Z",
+          "name": "1.20.50",
+          "slug": "1-20-50",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/76710/110/the-wild-environment_1-520x245.png",
+      "created_at": "2024-01-30T19:56:17.000000Z",
+      "user_id": 483183,
+      "sort_date": "2024-02-01 11:08:01",
+      "popular": {
+        "popular_week": "1412",
+        "popular_month": "25732",
+        "popular_all": "320425"
+      },
+      "submission_id": 76710,
+      "version": 115,
+      "username": "Dangel",
+      "user_nicename": "dangel",
+      "user_avatar": "https://api.mcpedl.com/storage/users/483183/2c1d7c5eb838c7648f78bcc6514a1567.png",
+      "average_rating": "4.51",
+      "short_description": "This add-on will increase the wilderness of nature and make your world look more natural and interesting to play in. It added more soil and rock patches to both surfaces and oce...",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "id": 7,
+          "name": "Minecraft PE Addons",
+          "slug": "addons",
+          "parent_id": 2
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/76710/110/the-wild-environment_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/76710/110/the-wild-environment_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/76710/110/the-wild-environment_1-520x245.png"
+      },
+      "update_date": "2024-01-30 19:56:17",
+      "publish_date": "2024-02-01 11:08:02",
+      "id": 205353,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 1,
+      "slug": "nico-s-mobs",
+      "source": "mcpedl",
+      "title": "Nico's Mobs (v1.8)",
+      "tags": [
+        {
+          "id": 276,
+          "category_id": null,
+          "created_at": "2023-12-07T09:00:00.000000Z",
+          "updated_at": "2023-12-07T09:00:00.000000Z",
+          "name": "1.20.50",
+          "slug": "1-20-50",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/84186/105/nicos-mobs_1-520x245.png",
+      "created_at": "2024-02-11T15:59:56.000000Z",
+      "user_id": 483183,
+      "sort_date": "2024-02-12 14:54:18",
+      "popular": {
+        "popular_week": "7647",
+        "popular_month": "11211",
+        "popular_all": "404156"
+      },
+      "submission_id": 84186,
+      "version": 108,
+      "username": "Dangel",
+      "user_nicename": "dangel",
+      "user_avatar": "https://api.mcpedl.com/storage/users/483183/2c1d7c5eb838c7648f78bcc6514a1567.png",
+      "average_rating": "4.35",
+      "short_description": "This add-on will add new mobs that can spawn naturally in your world. Each mob had different abilities and unique loot. Some mobs can be tamed, and others are very dangerous. Mo...",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "id": 7,
+          "name": "Minecraft PE Addons",
+          "slug": "addons",
+          "parent_id": 2
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/84186/105/nicos-mobs_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/84186/105/nicos-mobs_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/84186/105/nicos-mobs_1-520x245.png"
+      },
+      "update_date": "2024-02-11 15:59:56",
+      "publish_date": "2024-02-12 14:54:18",
+      "id": 206427,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 1,
+      "slug": "azalea-tree-wood-concept",
+      "source": "mcpedl",
+      "title": "Azalea Tree Wood (Concept)",
+      "tags": [
+        {
+          "id": 247,
+          "category_id": null,
+          "created_at": "2021-04-22T02:18:07.000000Z",
+          "updated_at": "2021-04-22T02:18:07.000000Z",
+          "name": "1.17.0.50 (beta)",
+          "slug": "1-17-0-50",
+          "term_id": null,
+          "tag_type_id": 11
+        },
+        {
+          "id": 250,
+          "category_id": null,
+          "created_at": "2021-04-20T02:20:05.000000Z",
+          "updated_at": "2021-04-20T02:20:05.000000Z",
+          "name": "1.17",
+          "slug": "1-17",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/54299/102/azaleawood_1-520x245.png",
+      "created_at": "2021-07-10T01:05:24.000000Z",
+      "user_id": 84017,
+      "sort_date": "2021-07-10 18:49:53",
+      "popular": {
+        "popular_week": "5",
+        "popular_month": "30",
+        "popular_all": "29663"
+      },
+      "submission_id": 54299,
+      "version": 102,
+      "username": "ForgeLogical",
+      "user_nicename": "forgelogical",
+      "user_avatar": "https://my.mcpedl.com/storage/users/84017/7aa3a44b6b87c91077f271c9308a209f.png",
+      "average_rating": "4.88",
+      "short_description": "Minecraft 1.17 is adding azalea trees but there's a big problem, it's made out of oak wood! In this addon I fixed Minecraft 1.17 azalea trees for Mojang, I added new Azalea wood...",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "id": 7,
+          "name": "Minecraft PE Addons",
+          "slug": "addons",
+          "parent_id": 2
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/54299/102/azaleawood_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/54299/102/azaleawood_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/54299/102/azaleawood_1-520x245.png"
+      },
+      "update_date": "2021-07-10 01:05:24",
+      "publish_date": "2023-04-20 00:07:46",
+      "id": 112826,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 1,
+      "slug": "azalea-forest-addon",
+      "source": "mcpedl",
+      "title": "Azalea Forest and Lush Caves!",
+      "tags": [
+        {
+          "id": 250,
+          "category_id": null,
+          "created_at": "2021-04-20T02:20:05.000000Z",
+          "updated_at": "2021-04-20T02:20:05.000000Z",
+          "name": "1.17",
+          "slug": "1-17",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/64682/101/thumbnail-v2_1-520x245.png",
+      "created_at": "2021-07-04T11:16:39.000000Z",
+      "user_id": 215449,
+      "sort_date": "2021-07-05 07:23:28",
+      "popular": {
+        "popular_week": "3",
+        "popular_month": "33",
+        "popular_all": "31842"
+      },
+      "submission_id": 64682,
+      "version": 101,
+      "username": "SirDerpMcaddon",
+      "user_nicename": "sirderpmcaddon",
+      "user_avatar": "https://api.mcpedl.com/storage/users/215449/973b02e71cab5a75f14c393396ff7668.png",
+      "average_rating": "4.8",
+      "short_description": "Do you love Azalea Trees and Lush Caves, but Mojang didn't make them generate naturally on 1.17? Say no more! Now Azalea has a custom biomes where it would generate while mainta...",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "id": 7,
+          "name": "Minecraft PE Addons",
+          "slug": "addons",
+          "parent_id": 2
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/64682/101/thumbnail-v2_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/64682/101/thumbnail-v2_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/64682/101/thumbnail-v2_1-520x245.png"
+      },
+      "update_date": "2021-07-04 11:16:39",
+      "publish_date": "2021-07-05 07:23:28",
+      "id": 111793,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 1,
+      "slug": "peepss-furniture-addon",
+      "source": "mcpedl",
+      "title": "Peepss Furniture V4.5!",
+      "tags": [
+        {
+          "id": 236,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "Discontinued / Outdated",
+          "slug": "discontinued",
+          "term_id": 516,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/31564/118/peepss-furniture-new-era-v4-only-for-116210_1-520x245.png",
+      "created_at": "2021-12-09T05:57:53.000000Z",
+      "user_id": 223388,
+      "sort_date": "2021-10-11 07:59:56",
+      "popular": {
+        "popular_week": "1053",
+        "popular_month": "5656",
+        "popular_all": "2763611"
+      },
+      "submission_id": 31564,
+      "version": 124,
+      "username": "Peepss",
+      "user_nicename": "peepss",
+      "user_avatar": "https://api.mcpedl.com/storage/users/223388/a7405fbeb21a3afa4a83b4f355de0e5c.png",
+      "average_rating": "4.35",
+      "short_description": "An add-on that adds new furniture, with great variations and possibilities! With tables that you can mold to your taste, and more! In addition to furniture that has interactions...",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "id": 7,
+          "name": "Minecraft PE Addons",
+          "slug": "addons",
+          "parent_id": 2
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/31564/118/peepss-furniture-new-era-v4-only-for-116210_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/31564/118/peepss-furniture-new-era-v4-only-for-116210_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/31564/118/peepss-furniture-new-era-v4-only-for-116210_1-520x245.png"
+      },
+      "update_date": "2021-12-09 05:57:53",
+      "publish_date": "2021-12-10 10:11:31",
+      "id": 134873,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 1,
+      "slug": "natures-spirit-addon",
+      "source": "mcpedl",
+      "title": "Nature's Spirit (A Nature Overhaul)",
+      "tags": [
+        {
+          "id": 272,
+          "category_id": null,
+          "created_at": "2023-07-12T09:00:00.000000Z",
+          "updated_at": "2023-07-12T09:00:00.000000Z",
+          "name": "1.20.10",
+          "slug": "1-20-10",
+          "term_id": null,
+          "tag_type_id": 11
+        },
+        {
+          "id": 271,
+          "category_id": null,
+          "created_at": "2023-06-25T09:00:00.000000Z",
+          "updated_at": "2023-06-25T09:00:00.000000Z",
+          "name": "1.20.1",
+          "slug": "1-20-1",
+          "term_id": null,
+          "tag_type_id": 11
+        },
+        {
+          "id": 273,
+          "category_id": null,
+          "created_at": "2023-08-10T10:00:00.000000Z",
+          "updated_at": "2023-08-10T10:00:00.000000Z",
+          "name": "1.20.12",
+          "slug": "1-20-12",
+          "term_id": null,
+          "tag_type_id": 11
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/34692/105/image20230817211405979_1-520x245.png",
+      "created_at": "2023-08-15T07:39:38.000000Z",
+      "user_id": 1054109,
+      "sort_date": "2023-08-21 13:32:39",
+      "popular": {
+        "popular_week": "1066",
+        "popular_month": "5090",
+        "popular_all": "371871"
+      },
+      "submission_id": 34692,
+      "version": 105,
+      "username": "Team-Hibiscus",
+      "user_nicename": "team-hibiscus",
+      "user_avatar": "https://api.mcpedl.com/storage/users/1054109/ad92e735c9b5cd756c0c43f9c8a58c6e.png",
+      "average_rating": "4.37",
+      "short_description": "Have you ever wanted to expand your world, wanted new types of trees, or what about new blocks? Nature's Spirit provides this too you, and more! It will allow you to expand your...",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Minecraft PE Mods &amp; Addons",
+          "slug": "mods",
+          "parent_id": null
+        },
+        {
+          "id": 7,
+          "name": "Minecraft PE Addons",
+          "slug": "addons",
+          "parent_id": 2
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/34692/105/image20230817211405979_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/34692/105/image20230817211405979_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/34692/105/image20230817211405979_1-520x245.png"
+      },
+      "update_date": "2023-08-15 07:39:38",
+      "publish_date": "2023-08-21 13:32:39",
+      "id": 188963,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    },
+    {
+      "type_id": 3,
+      "slug": "waving-leaves-and-water",
+      "source": "mcpedl",
+      "title": "Waving Leaves and Water! v5.1",
+      "tags": [
+        {
+          "id": 256,
+          "category_id": null,
+          "created_at": "2022-02-10T12:12:18.000000Z",
+          "updated_at": "2022-02-10T12:12:18.000000Z",
+          "name": "1.18.10",
+          "slug": "1-18-10",
+          "term_id": null,
+          "tag_type_id": 11
+        },
+        {
+          "id": 255,
+          "category_id": null,
+          "created_at": "2021-12-01T06:37:07.000000Z",
+          "updated_at": "2021-12-01T06:37:07.000000Z",
+          "name": "1.18",
+          "slug": "1-18",
+          "term_id": null,
+          "tag_type_id": 11
+        },
+        {
+          "id": 254,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "1.17.30",
+          "slug": "1-17-30",
+          "term_id": 525,
+          "tag_type_id": 11
+        },
+        {
+          "id": 182,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "16x",
+          "slug": "16x",
+          "term_id": 486,
+          "tag_type_id": 6
+        },
+        {
+          "id": 184,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "64x",
+          "slug": "64x",
+          "term_id": 489,
+          "tag_type_id": 6
+        },
+        {
+          "id": 131,
+          "category_id": null,
+          "created_at": "2021-03-30T06:22:59.000000Z",
+          "updated_at": "2021-03-30T06:22:59.000000Z",
+          "name": "Shaders",
+          "slug": "shaders",
+          "term_id": 405,
+          "tag_type_id": 5
+        }
+      ],
+      "image": "https://api.mcpedl.com/storage/submissions/7811/113/capture-20210822-0007081_1-520x245.png",
+      "created_at": "2023-07-13T16:52:20.000000Z",
+      "user_id": 183896,
+      "sort_date": "2023-07-17 12:59:14",
+      "popular": {
+        "popular_week": "379",
+        "popular_month": "2128",
+        "popular_all": "799777"
+      },
+      "submission_id": 7811,
+      "version": 118,
+      "username": "Fused Bolt",
+      "user_nicename": "fused-bolt",
+      "user_avatar": "https://api.mcpedl.com/storage/users/183896/2c1abbaf7c37db4c2c5521122e15bf20.png",
+      "average_rating": "4.25",
+      "short_description": "Vanilla minecraft isn't that much lively but this pack will give leaves , plants, flowers,crops and water a waving animation which looks pretty cool and lively. It is also prett...",
+      "categories": [
+        {
+          "name": "Minecraft PE Texture Packs",
+          "slug": "texture-packs"
+        }
+      ],
+      "thumbnails": {
+        "large": "https://api.mcpedl.com/storage/submissions/7811/113/capture-20210822-0007081_1-520x245.png",
+        "medium": "https://api.mcpedl.com/storage/submissions/7811/113/capture-20210822-0007081_1-520x245.png",
+        "small": "https://api.mcpedl.com/storage/submissions/7811/113/capture-20210822-0007081_1-520x245.png"
+      },
+      "update_date": "2023-07-13 16:52:20",
+      "publish_date": "2023-07-17 12:59:14",
+      "id": 185669,
+      "server_information": null,
+      "server_ip": "",
+      "servertype": [],
+      "port": 19132,
+      "is_bookmarked": false,
+      "status": "ACCEPTED"
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "to": 10,
+    "last_page": 6,
+    "per_page": 10,
+    "total": 53,
+    "type": "",
+    "filterTitle": "Mods",
+    "seo": {
+      "slug": null,
+      "pageTitle": "Minecraft PE Mods - Bedrock Edition | MCPEDL",
+      "metaTags": []
+    }
+  },
+  "updated_at": "Thursday, 15-Feb-2024 05:29:11 UTC"
+}

@@ -81,11 +81,11 @@ const MCPEDLUtilities = require('../MCPEDLUtilities');
  * @property {string} name
  * @property {string} slug
  * @property {number} term_id
- * @property {string} created_at
- * @property {string} updated_at
+ * @property {string?} created_at
+ * @property {string?} updated_at
  * @property {number} parent_id
  * @property {string?} url
- * @property {SubmissionCategoryPivot} pivot
+ * @property {SubmissionCategoryPivot?} pivot
  */
 /**
  * @typedef {Object} Guide
@@ -174,11 +174,64 @@ const MCPEDLUtilities = require('../MCPEDLUtilities');
  * @property {SubmissionMeta} meta
  * @property {SubmissionData} data
  */
+/**
+ * @typedef {Object} SearchTag
+ * @property {number} id
+ * @property {number?} category_id
+ * @property {string} created_at
+ * @property {string} updated_at
+ * @property {string} name
+ * @property {string} slug
+ * @property {number?} term_id
+ * @property {number} tag_type_id
+ */
+/**
+ * @typedef {Object} popular
+ * @property {string} popular_week
+ * @property {string} popular_month
+ * @property {string} popular_all
+ */
+/**
+ * @typedef {Object} SubmissionSearchResult
+ * @property {number} type_id
+ * @property {string} slug
+ * @property {string} source
+ * @property {string} title
+ * @property {SearchTag[]} tags
+ * @property {string} image
+ * @property {string} created_at
+ * @property {number} user_id
+ * @property {string} sort_date
+ * @property {PopularObject} popular
+ * @property {number} submission_id
+ * @property {number} version
+ * @property {string} username
+ * @property {string} user_nicename
+ * @property {string} user_avatar
+ * @property {string} average_rating
+ * @property {string} short_description
+ * @property {SubmissionCategory[]} categories
+ * @property {ThumbnailsObject} thumbnails
+ * @property {string} update_date
+ * @property {string} publish_date
+ * @property {number} id
+ * @property {Object} server_information
+ * @property {string} server_ip
+ * @property {string[]?} servertype
+ * @property {boolean} is_bookmarked
+ * @property {string} status
+ */
+/**
+ * @typedef {Object} SearchResponse
+ * @property {string} status
+ * @property {SubmissionSearchResult[]} data
+ */
 class Submissions extends MCPEDLUtilities {
     constructor() {
         super();
         this.apiBaseEndpoint = "https://api.mcpedl.com";
         this.slugEndpoint = "/api/route/slug/";
+        this.getSubmissions = "/api/submissions";
     }
     /**
      * @description Gets a submission by a slug
@@ -192,6 +245,30 @@ class Submissions extends MCPEDLUtilities {
             let response = await axios.get(`${this.apiBaseEndpoint}${this.slugEndpoint}${slug}`, {
                 headers: {
                     "User-Agent": this.userAgent
+                }
+            })
+            return response.data
+        } catch {
+            return null;
+        }
+    }
+    /**
+     * @description Searches MCPEDL by query
+     * @param {string} query
+     * @param {number?} perPage
+     * @returns {Promise<SearchResponse>}
+     */
+    async searchByQuery(query, perPage = 10) {
+        try {
+            // https://api.mcpedl.com/api/submissions?per_page=10&is_actual_version=1&s=a
+            let response = await axios.get(`${this.apiBaseEndpoint}${this.getSubmissions}`, {
+                headers: {
+                    "User-Agent": this.userAgent
+                },
+                "params": {
+                    per_page: perPage.toString(),
+                    is_actual_version: "1",
+                    s: query
                 }
             })
             return response.data
