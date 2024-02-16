@@ -43,6 +43,9 @@ class Auth extends MCPEDLUtilities {
         super();
         this.baseEndpoint = "https://api.mcpedl.com";
         this.loginEndpoint = "/api/auth/login";
+        this.registerEndpoint = "/api/auth/register";
+        this.getUserByTokenEndpoint = "/api/auth/user";
+
     }
     /**
      * @description Logs into an MCPEDL account
@@ -70,7 +73,7 @@ class Auth extends MCPEDLUtilities {
      * @returns {Promise<RegisterResponse>}
      */
     async register(username, email, password) {
-        let response = await axios.post(`https://api.mcpedl.com/api/auth/register`, {
+        let response = await axios.post(`${this.baseEndpoint}${this.registerEndpoint}`, {
             username,
             password,
             email,
@@ -80,6 +83,21 @@ class Auth extends MCPEDLUtilities {
         }, {
             headers: {
                 "User-Agent": this.userAgent
+            }
+        })
+        return response.data;
+    }
+    /**
+     * @description Gets a user from their token
+     * @param {string} token
+     * @param {string} token_type
+     * @returns {Promise<RegisterResponse>}
+     */
+    async getUserFromToken(token, token_type = "Bearer") {
+        let response = await axios.get(`${this.baseEndpoint}${this.getUserByTokenEndpoint}`, {
+            headers: {
+                "User-Agent": this.userAgent,
+                "Authorization": `${token_type} ${token}`
             }
         })
         return response.data;

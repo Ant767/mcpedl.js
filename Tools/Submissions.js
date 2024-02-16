@@ -232,6 +232,7 @@ class Submissions extends MCPEDLUtilities {
         this.apiBaseEndpoint = "https://api.mcpedl.com";
         this.slugEndpoint = "/api/route/slug/";
         this.getSubmissions = "/api/submissions";
+        this.voteEndpoint = "/api/vote/"; // Missing one part of the url, which is the submission ID and always changes per submission.
     }
     /**
      * @description Gets a submission by a slug
@@ -261,6 +262,7 @@ class Submissions extends MCPEDLUtilities {
     async searchByQuery(query, perPage = 10) {
         try {
             // https://api.mcpedl.com/api/submissions?per_page=10&is_actual_version=1&s=a
+            // Btw if you see comments like these, its just me storing notes for later. Ignore them
             let response = await axios.get(`${this.apiBaseEndpoint}${this.getSubmissions}`, {
                 headers: {
                     "User-Agent": this.userAgent
@@ -275,6 +277,26 @@ class Submissions extends MCPEDLUtilities {
         } catch {
             return null;
         }
+    }
+
+    /**
+     * @description votes on an MCPEDL submission (uses ID, not slug)
+     * @param {number} rating
+     * @param {number} id
+     * @param {string} token
+     * @param {string?} token_type
+     */
+    async vote(rating, id, token, token_type = "Bearer") {
+        // Couldnt find a way to test this easily. Please start an issue on github if this does not work.
+        await axios.post(`${this.apiBaseEndpoint}${this.voteEndpoint}${id}`, {
+            rating,
+            submission_id: id
+        }, {
+            headers: {
+                "User-Agent": this.userAgent,
+                "Authorization": `${token_type} ${token}`
+            }
+        })
     }
 }
 module.exports = new Submissions();

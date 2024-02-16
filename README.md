@@ -31,4 +31,19 @@ MCPEDL.Auth.login("john@example.com", "Password1234").then(res=>{
 })
 ```
 
+# Update V1.2.0
+
+```js
+MCPEDL.Auth.getUserFromToken("<TOKEN>").then(res=>{
+    // Do something...
+})
+```
+
+```js
+// Rating, id, token
+MCPEDL.Submission.vote(5, 12345, "<TOKEN>").then(res=>{
+    // Do something...
+})
+```
+
 More coming soon, this is still in development
